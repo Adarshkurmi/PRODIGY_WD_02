@@ -41,3 +41,44 @@ body{
     border-radius: 8px;
     cursor: pointer;
 }
+#lapsList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+}
+
+#lapsList li {
+    background: #222;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Button hover effect */
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Button click effect */
+.btn:active {
+    transform: scale(0.95);
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .timerDisplay {
+        font-size: 40px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
